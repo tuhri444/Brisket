@@ -1,0 +1,3 @@
+[submodule "Brisket/vendor/spdlog"]
+	path = Brisket/vendor/spdlog
+	url = https://github.com/gabime/spdlog

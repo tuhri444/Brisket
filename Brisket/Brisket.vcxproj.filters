@@ -27,9 +27,15 @@
     <ClInclude Include="src\Brisket\EntryPoint.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="src\Brisket\Log.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Brisket\Application.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Brisket\Log.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

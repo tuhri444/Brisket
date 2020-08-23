@@ -11,12 +11,14 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="src\Brisket\Log.h" />
     <ClInclude Include="src\Brisket.h" />
     <ClInclude Include="src\Brisket\Application.h" />
     <ClInclude Include="src\Brisket\Core.h" />
     <ClInclude Include="src\Brisket\EntryPoint.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="src\Brisket\Log.cpp" />
     <ClCompile Include="src\Brisket\Application.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
@@ -69,6 +71,7 @@
       <PreprocessorDefinitions>BK_PLATFORM_WINDOWS;BK_BUILD_DLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <LanguageStandard>stdcpp17</LanguageStandard>
+      <AdditionalIncludeDirectories>$(SolutionDir)vendor\spdlog\include</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -84,6 +87,7 @@
       <PreprocessorDefinitions>BK_PLATFORM_WINDOWS;BK_BUILD_DLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <LanguageStandard>stdcpp17</LanguageStandard>
+      <AdditionalIncludeDirectories>$(SolutionDir)vendor\spdlog\include</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
