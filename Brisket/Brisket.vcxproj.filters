@@ -4,6 +4,9 @@
     <Filter Include="Brisket">
       <UniqueIdentifier>{F94FDCED-652F-5B89-6E47-E65FDAA5C1EA}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Brisket\Events">
+      <UniqueIdentifier>{BD298B26-A9F7-7E2C-928B-EF527EF85A91}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\Brisket.h" />
@@ -15,6 +18,18 @@
     </ClInclude>
     <ClInclude Include="src\Brisket\EntryPoint.h">
       <Filter>Brisket</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Brisket\Events\ApplicationEvent.h">
+      <Filter>Brisket\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Brisket\Events\Event.h">
+      <Filter>Brisket\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Brisket\Events\KeyEvent.h">
+      <Filter>Brisket\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Brisket\Events\MouseEvent.h">
+      <Filter>Brisket\Events</Filter>
     </ClInclude>
     <ClInclude Include="src\Brisket\Log.h">
       <Filter>Brisket</Filter>

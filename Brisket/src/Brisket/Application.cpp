@@ -1,4 +1,7 @@
-#include "Application.h"
+  #include "Application.h"
+
+#include "Brisket/Events/ApplicationEvent.h"
+#include "Brisket/Log.h"
 
 namespace Brisket {
 
@@ -13,6 +16,8 @@ namespace Brisket {
 
 	void Application::Run()
 	{
+		WindowResizeEvent e(1280, 1720);
+		BK_CORE_TRACE(e);
 		while (true);
 	}
 }

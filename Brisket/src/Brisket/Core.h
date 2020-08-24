@@ -9,3 +9,5 @@
 #else
 	#error Brisket only supports the right OP, Windows!
 #endif
+
+#define BIT(x) (1 << x)
