@@ -9,6 +9,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="src\BKpch.h" />
     <ClInclude Include="src\Brisket.h" />
     <ClInclude Include="src\Brisket\Application.h">
       <Filter>Brisket</Filter>
@@ -36,6 +37,7 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="src\BKpch.cpp" />
     <ClCompile Include="src\Brisket\Application.cpp">
       <Filter>Brisket</Filter>
     </ClCompile>

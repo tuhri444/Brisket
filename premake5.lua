@@ -18,6 +18,9 @@ project "Brisket"
     targetdir("bin/" .. outputdir .. "/%{prj.name}")
     objdir("bin-int/" .. outputdir .. "/%{prj.name}")
 
+    pchheader "BKpch.h"
+    pchsource "Brisket/src/BKpch.cpp"
+
     files
     {
         "%{prj.name}/src/**.h",

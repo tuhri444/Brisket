@@ -1,4 +1,5 @@
-  #include "Application.h"
+#include <BKpch.h>
+#include "Application.h"
 
 #include "Brisket/Events/ApplicationEvent.h"
 #include "Brisket/Log.h"
