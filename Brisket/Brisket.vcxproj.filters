@@ -35,6 +35,8 @@
     <ClInclude Include="src\Brisket\Log.h">
       <Filter>Brisket</Filter>
     </ClInclude>
+    <ClInclude Include="src\Brisket\Window.h" />
+    <ClInclude Include="src\Platform\Windows\WindowsWindow.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\BKpch.cpp" />
@@ -44,5 +46,6 @@
     <ClCompile Include="src\Brisket\Log.cpp">
       <Filter>Brisket</Filter>
     </ClCompile>
+    <ClCompile Include="src\Platform\Windows\WindowsWindow.cpp" />
   </ItemGroup>
 </Project>

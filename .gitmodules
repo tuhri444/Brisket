@@ -1,3 +1,6 @@
 [submodule "Brisket/vendor/spdlog"]
 	path = Brisket/vendor/spdlog
 	url = https://github.com/gabime/spdlog
+[submodule "Brisket/vendor/GLFW"]
+	path = Brisket/vendor/GLFW
+	url = https://github.com/TheCherno/GLFW

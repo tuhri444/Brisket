@@ -10,6 +10,12 @@ workspace "Brisket"
 
 outputdir = "%{cfg.buildcgf}-%{cfg.system}-%{cfg.architecture}"
 
+IncludeDir = {}
+IncludeDir["GLFW"] = "Brisket/vendor/GLFW/include"
+
+include "Brisket/vendor/GLFW"
+
+
 project "Brisket"
     location "Brisket"
     kind "SharedLib"
@@ -30,7 +36,14 @@ project "Brisket"
     includedirs
     {
         "%{prj.name}/src",
-        "%{prj.name}/vendor/spdlog/include"
+        "%{prj.name}/vendor/spdlog/include",
+        "%{IncludeDir.GLFW}"
+    }
+
+    links
+    {
+        "GLFW",
+        "opengl32.lib"
     }
 
     filter "system:windows"
